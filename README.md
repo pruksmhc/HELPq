@@ -189,6 +189,8 @@ Configuration
 
 To configure login, edit `private/config.json`. Alternatively, you can configure login using the environment variables listed in `app.json` (this is especially useful when using Heroku).
 
+You can also configure login by creating users. Do this by logging in as Admin (current default username is admin and default password is hunter2) and navigating to the User Creation page. 
+
 In `private/config.json` (or the corresponding environment variables), provide the appropriate application id/secret combinations for either Facebook or Github authentication, or choose to disable them.
 
 #### Branding
